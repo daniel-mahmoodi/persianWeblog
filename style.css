@@ -1,0 +1,12 @@
+body{
+	direction:rtl;
+}
+h4,li,.card-header, .card-title, .card-text, .card-footer{
+	text-align:right;
+}
+label{
+	float:right;
+}
+.my-5{
+	margin-top:4rem !important;
+}

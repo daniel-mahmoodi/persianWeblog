@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="https://faradars.org"><img src="https://faradars.org/wp-content/uploads/2013/12/FaraDars-Header-A.png" width="120"></a>
+				<button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#FDMainMenu" aria-controls="FDMainMenu" aria-expanded="false" aria-label="نمایش فهرست">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="FDMainMenu">
+					<ul class="navbar-nav">
+						<li class="navbar-item active">
+							<a class="nav-link" href="index.html">صفحه اصلی</a>
+						</li>
+						<li class="navbar-item">
+							<a class="nav-link" href="contact.html">تماس با ما</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card mb-4 my-5">
+						<h5 class="card-header">تماس با ما</h5>
+						<div class="card-body">
+							<div class="card-text">
+								شما می توانید با استفاده از فرم زیر، با ما در تماس باشید
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="user">نام و نام خانواگی:</label>
+										<input type="text" class="form-control" id="user">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="user">پست الکترونیک:</label>
+										<input type="text" class="form-control" id="user">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="cmnt">پیام شما:</label>
+								<textarea class="form-control" rows="5" id="cmnt"></textarea>
+							</div>
+							<button type="button" class="btn btn-info">ارسال نظر</button>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<div class="card my-5">
+						<h5 class="card-header">جستجو</h5>
+						<div class="card-body">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="کلمه کلیدی + اینتر">
+								<span class="input-group-btn mr-1">
+									<button class="btn btn-secondary" type="button"><img src="img/search.png"></button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="card my-5">
+						<h5 class="card-header">دسته بندی</h5>
+						<div class="card-body">
+							<div class="row">
+								<ul class="list-unstyled mb-0">
+									<li>
+										<a href="#">آموزش HTML</a>
+									</li>
+									<li>
+										<a href="#">آموزش CSS</a>
+									</li>
+									<li>
+										<a href="#">آموزش JavaScript</a>
+									</li>
+									<li>
+										<a href="#">آموزش JQuery</a>
+									</li>
+								</ul>
+								<ul class="list-unstyled mb-0">
+									<li>
+										<a href="#">آموزش PHP</a>
+									</li>
+									<li>
+										<a href="#">آموزش Wordpress</a>
+									</li>
+									<li>
+										<a href="#">آموزش Java</a>
+									</li>
+									<li>
+										<a href="#">دانلود کتاب</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<footer class="py-5 bg-light">
+			<div class="container">
+				<p class="m-0 text-center text-dark">این قالب برای آموزش بوت استرپ 4 طراحی شده است.</p>
+			</div>
+		</footer>
+		
+	</body>
+</html>
